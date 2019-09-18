@@ -1,1 +1,347 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>rafkus - portfolio</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link href="/static/css/main.9d9e31fe.css" rel="stylesheet"></head><body><div id="root"></div><script type="text/javascript" src="/static/js/main.6e814ca6.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>RAFKUS Portfolio</title>
+</head>
+
+<body>
+    <header id="home" class="header">
+        <div class="container container--header ">
+            <h1 class="header__title"><a href="#" class="header__link">RAFKUS</a></h1>
+            <nav class="header__menu">
+                <ul class="header__menu-items">
+                    <li class="header__menu-item"><a href='#home' class="header__link">Home</a></li>
+                    <li class="header__menu-item"><a href='#about' class="header__link">About</a></li>
+                    <li class="header__menu-item"><a href='#projects' class="header__link">Projects</a></li>
+                    <li class="header__menu-item"><a href='#contact' class="header__link">Contact</a></li>
+                    <li class="header__menu-item"><a href='#cv' class="header__link">CV</a></li>
+                    <li class="header__menu-item"><a target="_blank" href='https://github.com/rafkus'
+                            class="header__link">Github</a></li>
+                </ul>
+                <div class="header__menu-toggle">
+                    Menu
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+
+        <section class="section section--about">
+            <article class="about container">
+                <h1 id="about" class="about__title">Hi, I'm Rafał</h1>
+                <p class="about__text">
+                    Pragmatist, logistician, skeptic.
+                </p>
+                <p class="about__text">
+                    A graduate of the Wrocław University of Technology in the field of
+                    telecommunication.
+                </p>
+                <p class="about__text">
+                    Self-taught programmer. Motivated to expand his knowledge and learn new
+                    technologies. Interested in development mainly towards software architecture and UX design,
+                    usability.
+                </p>
+                <p class="about__text">
+                    nice to meet you!
+                </p>
+
+                <section class="skills">
+                    <h2 class="skills__title">I have <span class="text--green">basic</span> knowledge about</h2>
+                    <ul class="skills__main-list">
+                        <li class="skills__main-list-item">
+                            <h3>Frontend</h3>
+                            <ul>
+                                <li>ES6</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>CSS3</li>
+                                <li>BEM</li>
+                                <li>Sass</li>
+                            </ul>
+                        </li>
+                        <li class="skills__main-list-item">
+                            <h3>Backend</h3>
+                            <ul>
+                                <li>Java 8</li>
+                                <li>Spring</li>
+                                <li>Hibernate</li>
+                                <li>MySql</li>
+                                <li>Maven</li>
+                            </ul>
+                        </li>
+                        <li class="skills__main-list-item">
+                            <h3>Other</h3>
+                            <ul>
+                                <li>basics of clean code
+                                    and design patterns</li>
+                                <li>git</li>
+                                <li>linux</li>
+                                <li>WordPress</li>
+                                <li>computer networks</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </section>
+                <p class="about__github">Check out my <strong><a href="#" class="link--green">github</a></strong>
+                    account.</p>
+
+            </article>
+        </section>
+
+        <section class="section">
+            <h1 id="projects" class="section__title">
+                Projects
+            </h1>
+            <div class="container container--project">
+
+                <article class="project">
+                    <h1 class="project__title">portolfio-page</h1>
+                    <div class="container--project-flex">
+                        <section class="project__meta">
+                            <time class="project__date">09.2019</time>
+                            <ul class="project__technologies">
+                                <li class="project__technologies-item">HTML5</li>
+                                <li class="project__technologies-item">CSS3</li>
+                                <li class="project__technologies-item">BEM</li>
+                                <li class="project__technologies-item">SCSS</li>
+                                <li class="project__technologies-item">flexbox</li>
+                                <li class="project__technologies-item">RWD</li>
+                            </ul>
+                            <div class="project__sources">
+                                <a target="_blank" href="https://github.com/rafkus/portfolio-page"
+                                    class="link">source</a>
+                            </div>
+                        </section>
+                        <section class="project__description">
+                            <p class="no-top-margin">
+                                My portfolio page. You just look at it.
+                            </p>
+                            <p>
+                                I tried to use BEM and Sass for first time.
+                                I used just one media query break with mobile first approach.
+                                In future I will add burger menu, sticky menu and smooth scrolling to sections.
+                            </p>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h1 class="project__title">filemover</h1>
+                    <div class="container--project-flex">
+                        <section class="project__meta">
+                            <time class="project__date">04.2019</time>
+                            <ul class="project__technologies">
+                                <li class="project__technologies-item">Java 8</li>
+                                <li class="project__technologies-item">Maven</li>
+                                <li class="project__technologies-item">JUnit 4</li>
+                                <li class="project__technologies-item">Logback</li>
+                                <li class="project__technologies-item">SneakYaml</li>
+                                <li class="project__technologies-item project__technologies-item--big">Apache Common CLI
+                                </li>
+                                <li class="project__technologies-item">git</li>
+                            </ul>
+                            <div class="project__sources">
+                                <a target="_blank" href="https://github.com/rafkus/filemover/tree/develop"
+                                    class="link">source</a>
+                            </div>
+                        </section>
+                        <section class="project__description">
+                            <p class="no-top-margin">
+                                Program moves files from main-folder to sub-folders by files extension.
+                            </p>
+                            <p>
+                                I have learned basics of Java at this project.
+                                I'm aware there is a lot of bad code practices and bad design solutions.
+                                I decided abandon it and start learnig web development with Spring projects.
+                            </p>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h1 class="project__title">like-dislike btns</h1>
+                    <div class="container--project-flex">
+                        <section class="project__meta">
+                            <time class="project__date">09.2019</time>
+                            <ul class="project__technologies">
+                                <li class="project__technologies-item">javascript</li>
+                                <li class="project__technologies-item">React</li>
+                            </ul>
+                            <div class="project__sources">
+                                <a target="_blank" href="https://github.com/rafkus/like-dislike-buttons"
+                                    class="link">source</a>
+                                <a target="_blank" href="https://rafkus.github.io/projects/like-dislike/"
+                                    class="link">demo</a>
+                            </div>
+                        </section>
+                        <section class="project__description">
+                            <p class="no-top-margin">
+                                Click like or dislike. One button disactivates another if it is active.
+                            </p>
+                            <p>
+                                Project created as a task for interview question.
+                                There is a lot of code duplication.
+                                Solution is no generic as should be.
+                                First which came to my mind.
+                            </p>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h1 class="project__title">snake</h1>
+                    <div class="container--project-flex">
+                        <section class="project__meta">
+                            <time class="project__date">2017</time>
+                            <ul class="project__technologies">
+                                <li class="project__technologies-item">javascript</li>
+                                <li class="project__technologies-item">canvas</li>
+                            </ul>
+                            <div class="project__sources">
+                                <a target="_blank" href="https://github.com/rafkus/snake" class="link">source</a>
+                                <a  target="_blank" href="https://rafkus.github.io/projects/snake/" class="link">demo</a>
+                            </div>
+                        </section>
+                        <section class="project__description">
+                            <p class="no-top-margin">Classic snake game. </p>
+                            <p>
+                                One of my first projects created
+                                during my first attempt to learn js in 2017.
+                                I didn't modify it since then so you can find weird things in here.
+                            </p>
+                        </section>
+                    </div>
+                </article>
+                <article class="project">
+                    <h1 class="project__title">simple-slider</h1>
+                    <div class="container--project-flex">
+                        <section class="project__meta">
+                            <time class="project__date">09.2019</time>
+                            <ul class="project__technologies">
+                                <li class="project__technologies-item">javascript</li>
+                                <li class="project__technologies-item">CSS</li>
+                            </ul>
+                            <div class="project__sources">
+                                <a target="_blank" href="https://github.com/rafkus/simple-slider"
+                                    class="link">source</a>
+                                <a target="_blank" href="https://rafkus.github.io/projects/slider/"
+                                    class="link">demo</a>
+                            </div>
+                        </section>
+                        <section class="project__description">
+                            <p class="no-top-margin">Simple slider just to remind me basics of js and CSS.
+
+                            </p>
+                            <p>
+                                Demo doesn't look very good because of bad size of images.
+                                I didn't focus at quality of UX.
+                            </p>
+                        </section>
+                    </div>
+                </article>
+                <article class="project">
+                    <h1 class="project__title">simple-page</h1>
+                    <div class="container--project-flex">
+                        <section class="project__meta">
+                            <time class="project__date">09.2019</time>
+                            <ul class="project__technologies">
+                                <li class="project__technologies-item">javascript</li>
+                                <li class="project__technologies-item">CSS</li>
+                            </ul>
+                            <div class="project__sources">
+                                <a target="_blank" href="https://github.com/rafkus/simple-page" class="link">source</a>
+                                <a target="_blank" href="https://rafkus.github.io/projects/simple-page/"
+                                    class="link">demo</a>
+                            </div>
+                        </section>
+                        <section class="project__description">
+                            <p class="no-top-margin">
+                                Simple project just to remind me basics of js and CSS.
+                            </p>
+                            <p><strong>WARNING:</strong> <br />YOUR EYES WILL HURT! <br /> I didn't focus at UI at all.
+                            </p>
+                            <p>
+
+                                <ul class="no-top-margin">
+                                    Project has features like
+                                    <li>sticky menu</li>
+                                    <li>burger menu</li>
+                                    <li>smooth scrolling</li>
+                                    <li>responsivness</li>
+                                </ul>
+                            </p>
+                        </section>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <h1 class="project__title">prime numbers</h1>
+                    <div class="container--project-flex">
+                        <section class="project__meta">
+                            <time class="project__date">2017</time>
+                            <ul class="project__technologies">
+                                <li class="project__technologies-item">javascript</li>
+                            </ul>
+                            <div class="project__sources">
+                                <a target="_blank" href="https://github.com/rafkus/prime-numbers"
+                                    class="link">source</a>
+                                <a target="_blank" href="https://rafkus.github.io/projects/prime-numbers/"
+                                    class="link">demo</a>
+                            </div>
+                        </section>
+                        <section class="project__description">
+                            <p class="no-top-margin">Print numbers up to defined numper.</p>
+                            <p>
+                                Project created for Weekly Javascript Challenge #1 created by Type of Web.
+                                I think it was my first project.
+                            </p>
+                            <p>Ugly UI included.</p>
+                        </section>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section section--grey">
+            <div class="container container--small flex-space-around">
+                <section id="contact" class="contact">
+                    <h1>Contact</h1>
+                    <p><a href="mailto:rk606797@gmail.com" class="link--dark">rk606797@gmail.com</a></p>
+                    <p><a href="https://github.com/rafkus" class="link--dark">https://github/rafkus</a> </p>
+                </section>
+
+                <section id="cv" class="cv">
+                    <h1>CV</h1>
+                    <p><a target="_blank" href="https://drive.google.com/open?id=1qn43Jfcy96HQHcJzADakAkmDfcrt9d0_"
+                            class="link--dark">eng</a></p>
+                    <p><a target="_blank" href="https://drive.google.com/open?id=1NdFu1I00rO6L4-6NbF8I99YAKNTnhH_P"
+                            class="link--dark">pl</a></p>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+        </div>
+        <p class="copyright">
+            Created by <span class="text--green">RAFKUS</span>, inspired by
+            <a class="text--green" target="_blank"
+                href="http://gentsthemes.com/themes/stanleywp-twitter-bootstrap-wordpress-theme/">
+                StanleyWP Theme
+            </a>.
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,WACI,gBAAiB,CACjB,SAAU,CACV,eACJ,CAEA,aACI,UAAW,CACX,aACJ","file":"main.94396bde.chunk.css","sourcesContent":[".container {\n    margin: 2rem auto;\n    width: 30%;\n    min-width: 20rem;\n}\n\n.form__field {\n    width: 100%;\n    margin: 1rem 0;\n}"]}
